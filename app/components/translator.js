@@ -9,9 +9,9 @@ export default class Translator extends Component {
 
   @action
   reset() {
-    this.set('ltr1', '');
-    this.set('ltr2', '');
-    this.set('ltr3', '');
+    this.ltr1 = '';
+    this.ltr2 = '';
+    this.ltr3 = '';
   }
 
   @action
