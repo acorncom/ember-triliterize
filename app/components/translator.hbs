@@ -1,0 +1,238 @@
+<div class="leftSide">
+
+  <div class="description">
+    <p class="mtext">Select three Arabic letters to view the verb patterns (I-X) for that particular combination.</p>
+
+    <p class="note"><u>Note</u>: Patterns for irregular verbs such as &#1608;&#1593;&#1583; and &#1586;&#1575;&#1585; are not yet supported.</p>
+
+    <p class="mtext" style="text-align: center;">Have fun!</p>
+  </div>
+
+  <div class="choices">
+    <form>
+      <label for="ltr1" class="letter">Letter 1:</label>
+      <select name="ltr1" id="ltr1" {{on "change" (fn this.setLetter "ltr1")}}>
+        <option>-- Choose letter --</option>
+        <option id="alif1" value="&#1571;">alif &#1571;</option>
+        <option id="baa1" value="&#1576;">baa &#1576;</option>
+        <option id="taa1" value="&#1578;">taa' &#1578;</option>
+        <option id="thaa1" value="&#1579;">thaa' &#1579;</option>
+        <option id="jiim1" value="&#1580;">jiim &#1580;</option>
+        <option id="Haa1" value="&#1581;">Haa' &#1581;</option>
+        <option id="khaa1" value="&#1582;">khaa' &#1582;</option>
+        <option id="daal1" value="&#1583;">daal &#1583;</option>
+        <option id="dhaal1" value="&#1584;">dhaal &#1584;</option>
+        <option id="raa1" value="&#1585;">raa' &#1585;</option>
+        <option id="zayn1" value="&#1586;">zayn &#1586;</option>
+        <option id="siin1" value="&#1587;">siin &#1587;</option>
+        <option id="shiin1" value="&#1587;">shiin &#1587;</option>
+        <option id="Saad1" value="&#1589;">Saad &#1589;</option>
+        <option id="Daad1" value="&#1590;">Daad &#1590;</option>
+        <option id="Taa1" value="&#1591;">Taa' &#1591;</option>
+        <option id="Zaa1" value="&#1592;">Zaa' &#1592;</option>
+        <option id="ayn1" value="&#1593;">'ayn &#1593;</option>
+        <option id="ghayn1" value="&#1594;">ghayn &#1594;</option>
+        <option id="faa1" value="&#1601;">faa' &#1601;</option>
+        <option id="qaaf1" value="&#1602;">qaaf &#1602;</option>
+        <option id="kaaf1" value="&#1603;">kaaf &#1603;</option>
+        <option id="laam1" value="&#1604;">laam &#1604;</option>
+        <option id="miim1" value="&#1605;">miim &#1605;</option>
+        <option id="nuun1" value="&#1606;">nuun &#1606;</option>
+        <option id="haa1" value="&#1607;">haa' &#1607;</option>
+        <option id="waaw1" value="&#1608;">waaw &#1608;</option>
+        <option id="yaa1" value="&#1610;">yaa' &#1610;</option>
+      </select>
+      <br><br>
+
+      <label for="ltr2" class="letter">Letter 2:</label>
+      <select name="ltr2" id="ltr2" {{on "change" (fn this.setLetter "ltr2")}}>
+        <option>-- Choose letter --</option>
+        <option id="alif2" value="&#1571;">alif &#1571;</option>
+        <option id="baa2" value="&#1576;">baa &#1576;</option>
+        <option id="taa2" value="&#1578;">taa' &#1578;</option>
+        <option id="thaa2" value="&#1579;">thaa' &#1579;</option>
+        <option id="jiim2" value="&#1580;">jiim &#1580;</option>
+        <option id="Haa2" value="&#1581;">Haa' &#1581;</option>
+        <option id="khaa2" value="&#1582;">khaa' &#1582;</option>
+        <option id="daal2" value="&#1583;">daal &#1583;</option>
+        <option id="dhaal2" value="&#1584;">dhaal &#1584;</option>
+        <option id="raa2" value="&#1585;">raa' &#1585;</option>
+        <option id="zayn2" value="&#1586;">zayn &#1586;</option>
+        <option id="siin2" value="&#1587;">siin &#1587;</option>
+        <option id="shiin2" value="&#1587;">shiin &#1587;</option>
+        <option id="Saad2" value="&#1589;">Saad &#1589;</option>
+        <option id="Daad2" value="&#1590;">Daad &#1590;</option>
+        <option id="Taa2" value="&#1591;">Taa' &#1591;</option>
+        <option id="Zaa2" value="&#1592;">Zaa' &#1592;</option>
+        <option id="ayn2" value="&#1593;">'ayn &#1593;</option>
+        <option id="ghayn2" value="&#1594;">ghayn &#1594;</option>
+        <option id="faa2" value="&#1601;">faa' &#1601;</option>
+        <option id="qaaf2" value="&#1602;">qaaf &#1602;</option>
+        <option id="kaaf2" value="&#1603;">kaaf &#1603;</option>
+        <option id="laam2" value="&#1604;">laam &#1604;</option>
+        <option id="miim2" value="&#1605;">miim &#1605;</option>
+        <option id="nuun2" value="&#1606;">nuun &#1606;</option>
+        <option id="haa2" value="&#1607;">haa' &#1607;</option>
+        <option id="waaw2" value="&#1608;">waaw &#1608;</option>
+        <option id="yaa2" value="&#1610;">yaa' &#1610;</option>
+      </select>
+      <br><br>
+
+      <label for="ltr3" class="letter">Letter 3:</label>
+      <select name="ltr3" id="ltr3" {{on "change" (fn this.setLetter "ltr3")}}>
+        <option>-- Choose letter --</option>
+        <option id="alif3" value="&#1571;">alif &#1571;</option>
+        <option id="baa3" value="&#1576;">baa &#1576;</option>
+        <option id="taa3" value="&#1578;">taa' &#1578;</option>
+        <option id="thaa3" value="&#1579;">thaa' &#1579;</option>
+        <option id="jiim3" value="&#1580;">jiim &#1580;</option>
+        <option id="Haa3" value="&#1581;">Haa' &#1581;</option>
+        <option id="khaa3" value="&#1582;">khaa' &#1582;</option>
+        <option id="daal3" value="&#1583;">daal &#1583;</option>
+        <option id="dhaal3" value="&#1584;">dhaal &#1584;</option>
+        <option id="raa3" value="&#1585;">raa' &#1585;</option>
+        <option id="zayn3" value="&#1586;">zayn &#1586;</option>
+        <option id="siin3" value="&#1587;">siin &#1587;</option>
+        <option id="shiin3" value="&#1587;">shiin &#1587;</option>
+        <option id="Saad3" value="&#1589;">Saad &#1589;</option>
+        <option id="Daad3" value="&#1590;">Daad &#1590;</option>
+        <option id="Taa3" value="&#1591;">Taa' &#1591;</option>
+        <option id="Zaa3" value="&#1592;">Zaa' &#1592;</option>
+        <option id="ayn3" value="&#1593;">'ayn &#1593;</option>
+        <option id="ghayn3" value="&#1594;">ghayn &#1594;</option>
+        <option id="faa3" value="&#1601;">faa' &#1601;</option>
+        <option id="qaaf3" value="&#1602;">qaaf &#1602;</option>
+        <option id="kaaf3" value="&#1603;">kaaf &#1603;</option>
+        <option id="laam3" value="&#1604;">laam &#1604;</option>
+        <option id="miim3" value="&#1605;">miim &#1605;</option>
+        <option id="nuun3" value="&#1606;">nuun &#1606;</option>
+        <option id="haa3" value="&#1607;">haa' &#1607;</option>
+        <option id="waaw3" value="&#1608;">waaw &#1608;</option>
+        <option id="yaa3" value="&#1610;">yaa' &#1610;</option>
+      </select>
+      <br><br>
+
+      <button {{on "click" this.reset}}>Reset Chart</button>
+    </form>
+
+    <br><br>
+
+  </div>
+</div>
+
+<div class="results" id="results">
+  <table id="verbformsB" class="verbforms">
+    <tbody>
+      <tr id="row6">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm6}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">VI</td>
+      </tr>
+
+      <tr id="row7">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm7}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">VII</td>
+      </tr>
+
+      <tr id="row8">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm8}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">VIII</td>
+      </tr>
+
+      <tr id="row9">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm9}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">IX</td>
+      </tr>
+
+      <tr id="row10">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm10}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">X</td>
+      </tr>
+    </tbody>
+  </table>
+  <table id="verbformsA" class="verbforms">
+    <tbody>
+      <tr id="row1">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm1}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">I</td>
+      </tr>
+      <tr id="row2">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm2}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">II</td>
+      </tr>
+      <tr id="row3">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm3}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">III</td>
+      </tr>
+
+      <tr id="row4">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm4}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">IV</td>
+      </tr>
+
+      <tr id="row5">
+        <td class="arabictext">
+          <p>
+            {{#if this.valid}}
+              {{this.verbForm5}}
+            {{/if}}
+          </p>
+        </td>
+        <td class="numeral">V</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
