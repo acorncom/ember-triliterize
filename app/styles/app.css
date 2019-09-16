@@ -192,3 +192,12 @@ a {
       margin-top: 25px;
   }
 }
+
+.translate-button {
+  cursor: pointer;
+  border: 0;
+  text-decoration: underline;
+  background: none;
+
+  font-size: 1.25rem;
+}
