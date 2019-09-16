@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin-left: 0;
+}
+
+.header {
+  padding: 10px;
+  background-image: url("/img/alhambra.jpg");
+  background-size: cover;
+  background-color: #614125;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 80px;
+  z-index: 3;
+}
+
+.spacer {
+  display: none;
+}
+
+a {
+  color: #f2dfce;
+}
+
+.titletext {
+  font-family: 'Viga', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 20px;
+}
+
+.leftSide {
+  width: 40%;
+  float: left;
+  padding: 30px;
+  margin-top: 185px;
+  position: relative;
+  clear: right;
+  font-size: 1.25em;
+}
+
+.choices {
+  padding: 15px;
+  text-align: center;
+}
+
+.results {
+  width: 60%;
+  margin: auto;
+  float: left;
+  z-index: 2;
+}
+
+#verbformsA {
+  float: left;
+  width: 50%;
+  margin-top: 175px;
+  height: 460px;
+}
+
+#verbformsB {
+  float: left;
+  width: 50%;
+  margin-top: 175px;
+  height: 460px;
+}
+
+.footer {
+  background-color: #614125;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 3;
+}
+
+.foot {
+  font-size: 0.7em;
+}
+
+.mtext {
+  font-family: 'Viga', sans-serif;
+  size: 1.5em;
+}
+
+.note {
+  font-family: 'Viga', sans-serif;
+  size: 1em;
+}
+
+.letter {
+  font-family: 'Viga', sans-serif;
+  font-size: 0.9em;
+  color: #614125;
+}
+
+.verbforms  {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.verbforms .numeral {
+  font-family: 'Viga', sans-serif;
+  text-align: center;
+  width: 33%;
+  font-size: 1.3em;
+}
+
+.verbforms .arabictext {
+  text-align: center;
+}
+
+.verbforms td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.verbforms tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+#verbform1, #verbform2, #verbform3, #verbform4, #verbform5, #verbform6, #verbform7, #verbform8, #verbform9, #verbform10 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+      font-size: 0.75em;
+      padding: 5px;
+      position: fixed;
+      height: 70px;
+      z-index: 3;
+      left: 0;
+      right: 0;
+      top: 0;
+  }
+
+  .spacer {
+      position: fixed;
+      z-index: 3;
+      height: 65px;
+  }
+
+  .leftSide {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 20px;
+      padding-bottom: 0;
+      position: relative;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      margin-top: 50px;
+  }
+
+  .choices {
+      margin-top: 0px;
+      margin-bottom: -25px;
+      border-bottom: 50px;
+      padding: 0;
+  }
+
+.results {
+      width: 100%;
+      padding-left: 18px;
+      padding-right: 10px;
+      padding-top: 0;
+      padding-bottom: 90px;
+      position: relative;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      border: 0px;
+      float: left;
+  }
+
+  .footer {
+      z-index: 3;
+  }
+
+  #verbformsA {
+      margin-top: 25px;
+  }
+
+  #verbformsB {
+      margin-top: 25px;
+  }
+}
